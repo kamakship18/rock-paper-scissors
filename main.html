@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div id="scoreboard">
+        <span class="player-score">0</span>
+        <span>-</span>
+        <span class="computer-score">0</span>
+    </div>
+
+    <div class="container">
+        <div id="player-side">
+            <h3>You</h3> 
+            <div class="handimg" id="player"><img src="" id="left"></div>
+            <div class="buttons">
+                <img src="./assets/rock-logo.png" class="clickbuttons" id="rock">
+                <img src="./assets/paper-logo.png" class="clickbuttons" id="paper">
+                <img src="./assets/scissors-logo.png" class="clickbuttons" id="scissor">
+            </div>
+        </div>
+
+        <div>
+            <img src="./assets/vs.png" id="versus">
+        </div>
+
+        <div id="comp-side">
+            <h3>Computer</h3> 
+            <div class="handimg" id="computer"><img src="" id="right"></div>
+        </div>
+
+    </div>
+
+    <div id="overlay"></div>
+    <div id="popup">
+        <div id="whowon"></div>
+        <button id="playbutton">Play Again</button>
+        <span id="closeBtn">Close</span>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

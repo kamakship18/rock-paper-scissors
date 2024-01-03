@@ -1,0 +1,106 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-image: url("./assets/bg.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+#scoreboard{
+    color: white;
+    font-size: 10vh;
+    text-align: center;
+    margin-top: 8vh;
+    margin-bottom: 5vh;
+}
+.container{
+    display: flex;
+    justify-content: space-evenly;
+}
+#left, #right{
+    height: 30vh;
+}
+#player{
+    height: 30vh;
+    
+}
+#player-side{
+    height:70vh;
+    width:70vh;
+    border: 4px solid orange;
+}
+h3{
+    font-size: 8vh;
+    color: white;
+    text-align: center;
+}
+#versus{
+    height: 70vh;
+}
+#playbutton{
+    color: white;
+    background-color: orange;
+    height: 8vh;
+    width: 20vh;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 15vh;
+    border-radius: 5vh;
+    text-align: center;
+    margin-left: 97vh;
+    display: flex;
+}
+.buttons{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.clickbuttons{
+    height: 107px;
+}
+#comp-side{
+    height:70vh;
+    width:70vh;
+    border: 4px solid orange;
+}
+#popup {
+    display: none;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 20px;
+    background-color: white;
+    border: 2px solid #333;
+    z-index: 2;
+    text-align: center;
+    font-size: 18px;
+}
+#whowon{
+    height: 2vh;
+    width: 80vh;
+    color: rgb(0, 0, 0);
+    text-align: center;
+    padding-top: 4vh;
+    font-size: 7vh;
+}
+#overlay {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5);
+    z-index: 1;
+}
+
+#closeBtn {
+    cursor: pointer;
+    color: #333;
+    font-weight: bold;
+    margin-top: 10px;
+    display: block;
+}
